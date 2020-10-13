@@ -38,10 +38,12 @@ const Index = ({ data }) => {
         return null;
       })}
       <div className='Text-center py-4'>
-     Projeto criado durante o evento Dev10k do <a href='https://devpleno.com'>Devpleno</a><br />
-     Código-fonte disponível em: ...
-     </div>
-     </div>
+      Projeto criado durante o evento Dev10k do <a href='https://devpleno.com'>Devpleno</a><br />
+      Código-fonte disponível em: 
+      <a href='https://github.com/schmvitor/socialLinks'>
+        https://github.com/schmvitor/socialLinks</a>
+      </div>
+      </div>
     </div>
   );
 };
